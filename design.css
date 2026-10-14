@@ -1,0 +1,33 @@
+body {
+    background-color: burlywood;
+}
+
+#card {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: burlywood;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(144, 119, 86);
+}
